@@ -6,7 +6,7 @@ for other classes
 
 import uuid
 from datetime import datetime
-from models import storage
+import storage
 
 time = "%Y-%m-%dT%H:%M:%S.%f"
 
