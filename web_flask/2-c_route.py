@@ -8,14 +8,14 @@ app = Flask(__name__)
 
 
 @app.route('/', strict_slashes=False)
-def hello_hbtn():
-    """returns 'Hello HBNB'"""
+def hello_holberton():
+    """returns string to the route'"""
     return 'Hello HBNB'
 
 
 @app.route('/hbnb', strict_slashes=False)
 def hbnb():
-    """returns HBNB"""
+    """returns HBNB to the /hbnb route"""
     return 'HBNB'
 
 
