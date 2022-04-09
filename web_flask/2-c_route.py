@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Start a Flask application which listen on 0.0.0.0 port 500
-"""
+"""Start a Flask application which listen on 0.0.0.0 port 500"""
 
 from flask import Flask
 app = Flask(__name__)
