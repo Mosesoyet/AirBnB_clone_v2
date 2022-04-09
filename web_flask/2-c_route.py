@@ -19,8 +19,7 @@ def hbnb():
 
 @app.route('/c/<text>', strict_slashes=False)
 def cisfun(text):
-    """Returns a string at the /c/<text> route,
-    expands the <text> variable"""
+    """Returns a string at the /c/<text> route"""
     new = text.replace('_', ' ')
     return 'C %s' % new
 
